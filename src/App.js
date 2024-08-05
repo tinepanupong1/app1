@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './style.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+  return(
+    <>
+    <h2>DeveloperTHai.com</h2>
+    <div className='title'>React&React Native</div>
+    </>
+  )
 }
-
 export default App;
+
+
+
+
+/*export default function App(){
+  const divStyle={
+    color:'red',
+    backgroundColor:'powderblue',
+    fontSize:'larger',
+    padding:'3px'
+
+  }
+  return <div style ={divStyle}>Hello React</div>
+}
+*/
+
+
