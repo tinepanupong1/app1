@@ -1,51 +1,16 @@
 import React from 'react'
-//import { Header, Content, Footer } from './func-components'
+import { Header, Content, Footer } from './func-components'
 import Calendar from './class-components'
 
 function App() {
     return (
-        
-            
+        <>
+            <Header/>
             <p><center><Calendar/></center></p>
-            
-        
+            <Content/>
+            <Footer/>
+        </>
     )
 }
 
 export default App
-
-
-
-
-
-
-
-
-/*import './style.css'
-
-function App(){
-  return(
-    <>
-    <h2>DeveloperTHai.com</h2>
-    <div className='title'>React&React Native</div>
-    </>
-  )
-}
-export default App;*/
-
-
-
-
-/*export default function App(){
-  const divStyle={
-    color:'red',
-    backgroundColor:'powderblue',
-    fontSize:'larger',
-    padding:'3px'
-
-  }
-  return <div style ={divStyle}>Hello React</div>
-}
-*/
-
-
